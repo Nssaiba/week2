@@ -1,0 +1,41 @@
+body{
+	background-color: #F2F2F2;
+	margin: 1%;
+	padding:1%;
+}
+.d {
+    width: 80%;
+  }
+  
+  .ing{
+    max-height: 30vh;
+    margin: 2%;
+  }
+
+
+@media all and (min-width: 772px) {
+  .d {
+    display:inline-block;
+    width: 45%;
+  }
+  
+  .ing{
+    max-height: 30vh;
+    width: 95%;
+    margin: 1%;
+  }
+
+}
+
+@media all and (min-width: 998px) {
+  .d {
+    display:inline-block;
+    width: 30%;
+  }
+  .ing{
+    max-height: 30vh;
+    width: 95%;
+    margin: 1%;
+  }
+
+}
